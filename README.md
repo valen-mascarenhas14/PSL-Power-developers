@@ -23,8 +23,6 @@
   - [License](#license)
   - [Acknowledgments](#acknowledgments)
 
-_INSTRUCTIONS: Below are the suggested sections to include in your README file to make sure your project is well documented. You can remove this instruction text._
-
 ## Project summary
 
 ### The issue we are hoping to solve
@@ -50,27 +48,9 @@ _INSTRUCTIONS: Included here is a list of IBM watsonx products. Remove any produ
 
 - [watsonx.ai](https://www.ibm.com/products/watsonx-ai) - Utilized for predictive analytics, analyzing vast datasets to forecast flood risks accurately.
 
-- [watsonx.governance](https://www.ibm.com/products/watsonx-governance) - Ensures data integrity and compliance, managing data usage and privacy throughout the project.
 
 - [watsonx Assistant](https://cloud.ibm.com/catalog/services/watsonx-assistant) - Provides a conversational interface for users to access information and report local conditions easily.
 
-### Other IBM technology used
-
-INSTRUCTIONS: List any other IBM technology or IBM AI services used in your solution and describe how each component was used. If you can provide details on where these were used in your code, that would help the judges review your submission.
-
-**Additional IBM AI services (Remove any that you did not use)**
-
-- [Watson Machine Learning](https://cloud.ibm.com/catalog/services/watson-machine-learning) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-
-- [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-
-- [Natural Language Understanding](https://cloud.ibm.com/catalog/services/natural-language-understanding) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-
-- [Speech to Text](https://cloud.ibm.com/catalog/services/speech-to-text) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-
-- [Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-
-- [Language Translator](https://cloud.ibm.com/catalog/services/language-translator) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
 
 ### Solution architecture
 
@@ -125,15 +105,6 @@ See our [description document](./docs/DESCRIPTION.md) for log in credentials.
 
 _INSTRUCTIONS: You can remove the below section from your specific project README._
 
-## About this template
-
-### Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-### Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ### Authors
 
@@ -147,6 +118,3 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
 
-### Acknowledgments
-
-- Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
