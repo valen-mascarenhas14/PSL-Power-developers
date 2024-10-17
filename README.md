@@ -54,16 +54,14 @@ _INSTRUCTIONS: Included here is a list of IBM watsonx products. Remove any produ
 
 ### Solution architecture
 
-REPLACE THIS EXAMPLE WITH YOUR OWN, OR REMOVE THIS EXAMPLE
-
 Diagram and step-by-step description of the flow of our solution:
 
-![Video transcription/translaftion app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
+![Our app](./images/arch-diagram.png)
 
-1. The user navigates to the site and uploads a video file.
-2. Watson Speech to Text processes the audio and extracts the text.
-3. Watson Translation (optionally) can translate the text to the desired language.
-4. The app stores the translated text as a document within Object Storage.
+1. Users interact with the React app. The React app sends the request to Watsonx Assistant for flood-related queries.
+2. The assistant forwards the user’s query to the backend (or directly) to the flood detection model in Watsonx.ai.
+3. The model retrieves relevant data from IBM Cloud Object Storage, like historical data or real-time weather conditions, for predictions.
+4. Watsonx.ai returns the prediction back through the assistant to the user interface in the React app.
 
 ## Presentation materials
 
