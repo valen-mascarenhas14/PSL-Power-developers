@@ -23,7 +23,7 @@ const WatsonAssistantPage = () => {
   }, []);
   return (
     <div>
-      <h1>Welcome to the Watson Assistant vhatbot</h1>
+      <h1>Welcome to the Watson Assistant chatbot</h1>
       <p>The Watson Assistant chatbot will help you with your queries.</p>
     </div>
   );
