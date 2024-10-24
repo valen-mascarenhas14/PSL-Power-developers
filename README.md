@@ -63,58 +63,46 @@ Diagram and step-by-step description of the flow of our solution:
 3. The model retrieves relevant data from IBM Cloud Object Storage, like historical data or real-time weather conditions, for predictions.
 4. Watsonx.ai returns the prediction back through the assistant to the user interface in the React app.
 
-## Presentation materials
-
-_INSTRUCTIONS: The following deliverables should be officially posted to your My Team > Submissions section of the [Call for Code Global Challenge resources site](https://cfc-prod.skillsnetwork.site/), but you can also include them here for completeness. Replace the examples seen here with your own deliverable links._
-
 ### Solution demo video
 
 [![Watch the video](https://raw.githubusercontent.com/Liquid-Prep/Liquid-Prep/main/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
 
 ### Project development roadmap
 
-The project currently does the following things.
+The project currently implements the following features:
+- **Feature 1**: Basic real-time flood prediction using environmental data.
+- **Feature 2**: Integrated Watson Assistant for flood-related conversational interactions.
 
-- Feature 1
-- Feature 2
-- Feature 3
+### Future Plans:
+- Mobile integration with push notifications.
+- Enhancements in predictive algorithms.
+- Localized flood alerts with real-time geodata.
+- Mapping of resources for flood-affected communities.
 
-In the future we plan to...
-
-See below for our proposed schedule on next steps after Call for Code 2024 submission.
-
-![Roadmap](./images/roadmap.jpg)
-
-## Additional details
-
-_INSTRUCTIONS: The following deliverables are suggested, but **optional**. Additional details like this can help the judges better review your solution. Remove any sections you are not using._
 
 ### How to run the project
 
 INSTRUCTIONS: 
 
-npm install
 
-npm start
+Clone the repository:
+   ```bash
+   git clone https://github.com/valen-mascarenhas14/PSL-Power-developers.git
+   ```
+Navigate to the project directory:
+   ```bash
+   cd PSL-Power-developers
+   ```
+Install the necessary dependencies:
+   ```bash
+   npm install 
+   ```
+Start the development server:
+   ```bash
+   npm start
+   ```
+The project will now be running locally on `http://localhost:3000`. You can view the Watson Assistant chat on the dashboard, which opens automatically upon loading.
 
-### Live demo
-
-You can find a running system to test at...
-
-See our [description document](./docs/DESCRIPTION.md) for log in credentials.
-
----
-
-_INSTRUCTIONS: You can remove the below section from your specific project README._
-
-
-### Authors
-
-<a href="https://github.com/Call-for-Code/Project-Sample/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Project-Sample" />
-</a>
-
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
 
 ### License
 
