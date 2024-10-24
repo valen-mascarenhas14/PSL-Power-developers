@@ -91,7 +91,11 @@ _INSTRUCTIONS: The following deliverables are suggested, but **optional**. Addit
 
 ### How to run the project
 
-INSTRUCTIONS: In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
+INSTRUCTIONS: 
+
+npm install
+
+npm start
 
 ### Live demo
 
