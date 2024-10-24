@@ -63,10 +63,6 @@ Diagram and step-by-step description of the flow of our solution:
 3. The model retrieves relevant data from IBM Cloud Object Storage, like historical data or real-time weather conditions, for predictions.
 4. Watsonx.ai returns the prediction back through the assistant to the user interface in the React app.
 
-## Presentation materials
-
-_INSTRUCTIONS: The following deliverables should be officially posted to your My Team > Submissions section of the [Call for Code Global Challenge resources site](https://cfc-prod.skillsnetwork.site/), but you can also include them here for completeness. Replace the examples seen here with your own deliverable links._
-
 ### Solution demo video
 
 [![Watch the video](https://raw.githubusercontent.com/Liquid-Prep/Liquid-Prep/main/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
@@ -91,15 +87,15 @@ INSTRUCTIONS:
 
 Clone the repository:
    ```bash
-   git clone https://github.com/your-repo-url
+   git clone https://github.com/valen-mascarenhas14/PSL-Power-developers.git
    ```
 Navigate to the project directory:
    ```bash
-   cd your-repo-directory
+   cd PSL-Power-developers
    ```
 Install the necessary dependencies:
    ```bash
-   npm install
+   npm install 
    ```
 Start the development server:
    ```bash
